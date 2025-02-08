@@ -1,29 +1,25 @@
 # MyAutoPano - Panorama Image Stitching
-RBE/CS Fall 2022: Classical and Deep Learning Approaches for Geometric Computer Vision
 
-## Team Members - Group 19
-- Prasham Soni
-- Sarthak Mehta
-
-## Project Structure
+## File Structure
 ```
-Group19_p1/
-└── Phase1/
+
+Phase1/
     └── Code/
-        └── wrapper.py
-    └── Phase2/
-        ├── Code/
-        │   ├── Wrapper.py                 # Main wrapper script with switch case for Supervised & Unsupervised
-        │   ├── predict_supervised.py       # Supervised model pipeline for homography prediction
-        │   ├── predict_unsupervised.py     # Unsupervised model pipeline for homography prediction
-        │   ├── CustomDataset.py            # Dataset loading and preprocessing
-        │   ├── Train.py                    # Training script for models
-        │   ├── Test.py                     # Testing script for evaluation
-        ├── Network/
-        │   ├── HomographyNet.py             # Supervised deep learning model architecture
-        │   ├── Unsupervised_HomographyNet.py # Unsupervised model architecture
-        ├── Misc/                            # Additional utility files
-        ├── TxtFiles/                        # Configuration and experiment logs
+    └── wrapper.py
+
+Phase2/
+    ├── Code/
+    │   ├── Wrapper.py                 # Main wrapper script with switch case for Supervised & Unsupervised
+    │   ├── predict_supervised.py       # Supervised model pipeline for homography prediction
+    │   ├── predict_unsupervised.py     # Unsupervised model pipeline for homography prediction
+    │   ├── CustomDataset.py            # Dataset loading and preprocessing
+    │   ├── Train.py                    # Training script for models
+    │   ├── Test.py                     # Testing script for evaluation
+    ├── Network/
+    │   ├── HomographyNet.py             # Supervised deep learning model architecture
+    │   ├── Unsupervised_HomographyNet.py # Unsupervised model architecture
+    ├── Misc/                            # Additional utility files
+    ├── TxtFiles/                        # Configuration and experiment logs
 
 ```
 
